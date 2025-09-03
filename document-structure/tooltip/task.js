@@ -29,11 +29,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
             const position = this.getBoundingClientRect();
 
-            let positionY = position.bottom + 10;
-            let positionX = position.left;
-
-            tooltipElement.style.top = `${positionY}px`;
-            tooltipElement.style.left = `${positionX}px`;
+            tooltipElement.style.top = `${position.bottom + 10}px`;
+            tooltipElement.style.left = `${position.left}px`;
 
 
             tooltipElement.classList.add('tooltip_active');
