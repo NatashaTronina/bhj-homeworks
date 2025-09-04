@@ -40,8 +40,11 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    const addBtn = document.getElementById('tasks__add');
-    addBtn.addEventListener('click', addTask());
+    // const addBtn = document.getElementById('tasks__add');
+    // addBtn.addEventListener('click', (event) => {
+    //     event.preventDefault();
+    //     addTask();
+    // });
 
     tasksForm.addEventListener('submit', (event) => {
         event.preventDefault();
