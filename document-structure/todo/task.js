@@ -5,6 +5,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     function createTask(element){
+
+    // tasksList.insertAdjacentHTML('afterbegin', "
+    // <div class="task">
+    //   <div class="task__title">
+    //     ${title}
+    //   </div>
+    //   <a href="#" class="task__remove">&times;</a>
+    // </div>");
+
         const task = document.createElement('div');
         task.classList.add('task');
 
